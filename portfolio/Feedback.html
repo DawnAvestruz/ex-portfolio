@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feedback</title>
+</head>
+<body>
+	<form class="container">
+	
+		 <!-- container for topbar -->
+    <div class="topnav" style="background-color: black; overflow: hidden; ">
+      <a style=" float: left; color: white; text-align: center; padding: 14px 16px;  font-size: 17px;  background-color: forestgreen;
+  color: white;" href="index.html">Home</a>
+        <a style=" float: left; color:white; text-align: center; padding: 14px 16px;  font-size: 17px;  background-color: forestgreen;
+  color: white;" href="Gallery.html">Gallery</a>
+        <a style=" float: left; color: white; text-align: center; padding: 14px 16px;  font-size: 17px; background-color: forestgreen;
+  color: black;" href="Records.html">Records</a>
+        <a style=" float: left; color:white; text-align: center; padding: 14px 16px;  font-size: 17px;background-color: forestgreen;
+  color: black;" href="Feedback.html">FeedBack</a>
+    </div>
+  <!-- end topbar container -->
+
+		<div style="background-color: mediumpurple; height: 50px; display: flex; justify-content: space-between; align-items: center;">
+    		<label>Website Feedback Form</label>
+    		<button class="button">Download</button>
+		</div>
+
+		<div style="padding: 30px;">
+			<label>Enter Your Full Name *</label><br>
+			<input type="text" name="FName" placeholder="Ex. John Robert A. Carig"><br><br>
+			<label>Your Email address *</label><br>
+			<input type="email" name="email" placeholder=""><br><br>
+			<label>Is this the First time you have visited the website? *
+			</label><br>
+			<input type="radio" name="">
+			<label>Yes</label><br>
+			<input type="radio" name="">
+			<label>No</label><br><br>
+
+			<label>What is the Primary reason you came to the site? *</label><br>
+			<textarea id="comment" name="comment" rows="4" cols="10" style="resize: none; height: 150px; width: 350px;" placeholder="Enter Your comment">...</textarea><br><br>
+			<label>Did you find what you needed? *</label><br>
+			<input type="checkbox" name="checkbox1">
+			<label>Yes, all of it</label><br>
+			<input type="checkbox" name="checkbox1">
+			<label>Yes, some of it</label><br>
+			<input type="checkbox" name="checkbox1">
+			<label>No, none of it</label>
+			<div style="padding: 20px;">
+			<label>User Friendlyness *</label><br>
+			<input type="radio" id="star5" name="rating" value="5">
+    			<input type="radio" name="rating" value="4">
+    			<input type="radio" name="rating" value="3">
+    			<input type="radio" name="rating" value="2">
+    			<input type="radio" name="rating" value="1"><br>
+
+    			<button style="background-color: royalblue;">Send Your feedback</button>
+			</div>
+		</div>
+	</form>
+</body>
+</html>
